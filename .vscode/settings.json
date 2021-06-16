@@ -1,0 +1,33 @@
+{
+  "editor.formatOnSave": true,
+
+  // "beautify.config": {
+  "indent_size": 2,
+  "indent_char": " ",
+  "css": {
+    "indent_size": 2
+  },
+  // },
+  "beautify.language": {
+    "js": {
+      "type": [
+        "javascript",
+        "json",
+        "jsonc"
+      ],
+      "filename": [
+        ".jshintrc",
+        ".jsbeautifyrc"
+      ]
+    },
+    "css": [
+      "css",
+      "less",
+      "scss"
+    ],
+    "html": [
+      "htm",
+      "html"
+    ]
+  },
+}

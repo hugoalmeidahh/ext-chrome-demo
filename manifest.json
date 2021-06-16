@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Demo CookieToBeer",
+  "description": "teste extension for chrome",
+  "icons": {
+    "128": "128.png"
+  },
+  "version": "1.0",
+  "permissions": ["storage", "activeTab", "scripting", "cookies", "unlimitedStorage", "notifications"],
+  "host_permissions": ["<all_urls>"],
+
+  "action": {
+    "default_popup": "index.html"
+  }
+}
